@@ -1,4 +1,3 @@
----
 name: CI/CD Pipeline
 
 on:
@@ -36,10 +35,13 @@ jobs:
   # Stage 2 : Build image Docker
   build:
     needs: test
-    uses: ./.github/workflows/reusable-docker.yml
-    with:
-      image-name: devops-app
-      context: ./app
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v5
+        with:
+          context: ./app
           push: false
           tags: devops-app:${{ github.sha }}
           cache-from: type=gha
@@ -68,4 +70,3 @@ jobs:
     environment: production
     steps:
       - run: echo "Deploying version ${{ github.sha }}..."
-
