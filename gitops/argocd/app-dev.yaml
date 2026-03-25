@@ -6,7 +6,7 @@ metadata:
 spec:
   project: devops-training
   source:
-    repoURL: https://github.com/atu0601/devops-gitops.git
+    repoURL: https://github.com/atu0601/DevOps-App
     targetRevision: main
     path: gitops/argocd
   destination:
