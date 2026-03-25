@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79c3d972-10fa-4311-b14b-be6b5f43c50f" name="Changes" comment="ci: add multi-stage pipeline">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-environnement.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-pipeline-cicd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-github-actions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-terraform-init.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-terraform-modules.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-ansible-playbook.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-docker-avance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-kubernetes-deploy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-helm-charts.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-prometheus-grafana.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-devsecops-scan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-gitops-argocd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SECURITY-CHECKLIST.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Dockerfile.bad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/argocd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/.helmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/Chart.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/templates/NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/templates/_helpers.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/templates/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/templates/hpa.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/templates/httproute.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/templates/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/templates/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/templates/serviceaccount.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/templates/tests/test-connection.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops-app-chart/values.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/apps/devops-app/base/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/apps/devops-app/base/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/apps/devops-app/base/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/apps/devops-app/overlays/dev/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/apps/devops-app/overlays/dev/replicas-patch.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/apps/devops-app/overlays/prod/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/apps/devops-app/overlays/prod/replicas-patch.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/apps/devops-app/overlays/staging/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/apps/devops-app/overlays/staging/replicas-patch.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/argocd/app-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/argocd/app-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/argocd/app-staging.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitops/argocd/project.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/inventory.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/playbook-base.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/playbook-nginx.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/roles/base/defaults/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/roles/base/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/roles/nginx/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/roles/nginx/handlers/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/roles/nginx/tasks/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/roles/nginx/templates/default.conf.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/roles/nginx/templates/index.html.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/ansible/site.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/.terraform.lock.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.6.2/darwin_arm64/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.6.2/darwin_arm64/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.6.2/darwin_arm64/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.6.2/darwin_arm64/terraform-provider-docker_v3.6.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/dev.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/environements/dev/.terraform.lock.hcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/environements/dev/.terraform/environment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/environements/dev/.terraform/modules/modules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/environements/dev/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.6.2/darwin_arm64/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/environements/dev/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.6.2/darwin_arm64/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/environements/dev/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.6.2/darwin_arm64/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/environements/dev/.terraform/providers/registry.terraform.io/kreuzwerker/docker/3.6.2/darwin_arm64/terraform-provider-docker_v3.6.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/environements/dev/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/environements/dev/terraform.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/modules/database/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/modules/database/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/modules/database/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/modules/webapp/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/modules/webapp/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/modules/webapp/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/prod.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/terraform.tfstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/terraform/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/app.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/ingress.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/postgres.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/alertmanager/alertmanager.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/grafana/provisioning/dashboards/app-overview.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/grafana/provisioning/dashboards/default.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/grafana/provisioning/datasources/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/prometheus/alerts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/prometheus/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/policies/dockerfile.rego" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/policies/k8s.rego" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/values-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/values-prod.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/app/Dockerfile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/antoine/Documents/HETIC/devops-app" value="3BLFzX3RyUluwHLHfAwXK9SlE6A" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Ask" />
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="GPT-4o" />
+      <entry key="agent-panel" value="GPT-4o" />
+    </selectedModels>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;atu0601&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/atu0601/DevOps-App.git&quot;,
+    &quot;accountId&quot;: &quot;93d64d45-cee4-47ec-8f03-353983799753&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="3BLFzX3RyUluwHLHfAwXK9SlE6A" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.localhost:8080.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/Users/antoine/Documents/HETIC/devops-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/infra/ansible" />
+      <recent name="$PROJECT_DIR$/infra/terraform/environements/dev" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="localhost:8080" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:8080" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.32098.39" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79c3d972-10fa-4311-b14b-be6b5f43c50f" name="Changes" comment="" />
+      <created>1774260707217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774260707217</updated>
+      <workItem from="1774260708688" duration="230000" />
+      <workItem from="1774260960531" duration="15219000" />
+      <workItem from="1774347329675" duration="14000" />
+      <workItem from="1774347351511" duration="6906000" />
+      <workItem from="1774359860135" duration="22255000" />
+    </task>
+    <task id="LOCAL-00001" summary="ci: update CI/CD pipeline to use Docker build steps">
+      <option name="closed" value="true" />
+      <created>1774263013044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774263013044</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ci: refine reusable Docker build workflow and update output handling">
+      <option name="closed" value="true" />
+      <created>1774263104358</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774263104358</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ci: add multi-stage pipeline">
+      <option name="closed" value="true" />
+      <created>1774263730226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774263730226</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ci: add multi-stage pipeline">
+      <option name="closed" value="true" />
+      <created>1774263875564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774263875564</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.j2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ci: update CI/CD pipeline to use Docker build steps" />
+    <MESSAGE value="ci: refine reusable Docker build workflow and update output handling" />
+    <MESSAGE value="ci: add multi-stage pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci: add multi-stage pipeline" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
