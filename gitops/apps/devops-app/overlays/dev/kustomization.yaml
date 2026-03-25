@@ -7,5 +7,5 @@ namespace: devops-dev
 patches:
   - path: replicas-patch.yaml
 images:
-  - name: ghcr.io/<your-user>/devops-app
+  - name: ghcr.io/atu0601/devops-app
     newTag: sha-abc1234
