@@ -6,9 +6,9 @@ metadata:
 spec:
   project: devops-training
   source:
-    repoURL: https://github.com/atu0601/DevOps-App
+    repoURL: https://github.com/atu0601/DevOps-App.git
     targetRevision: main
-    path: gitops/argocd
+    path: gitops/apps/devops-app/overlays/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: devops-dev

@@ -6,7 +6,7 @@ metadata:
 spec:
   description: "Projet de formation DevOps"
   sourceRepos:
-    - https://github.com/atu0601/DevOps-App
+    - https://github.com/atu0601/DevOps-App.git
   destinations:
     - namespace: devops-*
       server: https://kubernetes.default.svc
